@@ -8,8 +8,7 @@ body{
 }
 #navbar{
     flex-direction: column;
-    height: 3.5rem;
-    /* z-index: -1; */
+    height: 4.75rem;
 }
 #logo{
     margin: 0.1rem 0;
@@ -45,6 +44,7 @@ body{
 }
 #home{
     margin: 4rem 0;
+    height: 23rem;
     z-index: -1;
 }
 #home .btn{
