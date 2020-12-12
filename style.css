@@ -94,7 +94,7 @@
     cursor: pointer;
 }
 .h-primary{
-  padding: 4rem 0 0.25rem 0;
+  padding: 10rem 0 0.25rem 0;
   font-size: 3.5rem;
 }
 .h11-primary{
@@ -202,5 +202,11 @@ footer{
   cursor: pointer;
 }
 .submit:hover{
+<<<<<<< HEAD
   padding: 0.7rem 2.6rem;
 }
+=======
+  padding: 6px 12px 6px 12px;
+  
+}
+>>>>>>> 177042349a302c60499a7d42cf30aaac49824dac
