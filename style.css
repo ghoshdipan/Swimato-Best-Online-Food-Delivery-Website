@@ -154,8 +154,9 @@
   padding: 0 2.25rem 0.75em 2.25rem;
 }
 #contact{
+  overflow: hidden;
   position: relative;
-  height: 530px;
+  height: 540px;
 }
 #contact::before{
   content: "";
@@ -187,4 +188,19 @@
 footer{
   color: white;
   background: rgb(82, 77, 77);
+}
+.submit{
+  font-size: medium;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+.submit:hover{
+  padding: 6px 12px 6px 12px;
+  
 }
