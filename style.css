@@ -83,7 +83,7 @@
   #home .btn {
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
-    padding: 0.1em 0.6em;
+    padding: 0.1rem 0.6rem;
     border: 1px solid #ffb87b;
     border-radius: 7px;
     background-color: #4f261a;
@@ -93,7 +93,7 @@
     cursor: pointer;
 }
 .h-primary{
-  padding: 1.5em 0 0.25em 0;
+  padding: 4rem 0 0.25rem 0;
   font-size: 3.5rem;
 }
 .h11-primary{
