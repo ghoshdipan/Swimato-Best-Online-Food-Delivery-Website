@@ -7,7 +7,7 @@ body{
 }
 #navbar{
     flex-direction: column;
-    margin: 0rem;
+    height: 3.5rem;
 }
 #logo{
     margin: 0.1rem 0;
@@ -18,11 +18,11 @@ body{
 }
 #navbar ul li a{
     font-size: 1em;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 }
 .h-primary{
-    padding: 6rem 0 0 0;
+    padding: 4rem 0 0 0;
     font-size: 3rem;
 }
 .h11-primary{
@@ -38,11 +38,16 @@ body{
     font-size: 1.5rem;
 }
 #home{
-    margin: 2rem 0rem;
+    margin: 4rem 0;
+}
+#home .btn{
+    margin: 4rem 0;
+    text-align: center;
+    overflow: hidden;
 }
 #home h1{
-    padding: 0 1rem 0 1rem;
-    font-size: 2rem;
+    padding: 1.5rem 1rem 0 1rem;
+    font-size: 1.75rem;
     text-align: center;
 }
 #home p{
@@ -71,7 +76,7 @@ body{
     padding: 0 1rem 0.75em 1rem;
 }
 .client-items img{
-    height: 6rem;
+    height: 5.8rem;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 #contact{
@@ -79,4 +84,7 @@ body{
 }
 #contact-box{
     margin: 0 3rem 0 3rem;
+}
+.submit{
+    margin-top: 2.1rem;
 }
