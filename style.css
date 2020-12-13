@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Nerko One", cursive;
   overflow-x: hidden ;
 }
@@ -43,6 +44,7 @@
 }
 #logo {
   margin: 1em 1.25em; 
+  overflow: hidden;
 }
 #logo img {
   margin: 0.25rem 1.5rem;
@@ -65,7 +67,7 @@
   height: 102%;
   width: 100%;
   z-index: -1;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 #home h1 {
     color: white;
