@@ -6,9 +6,12 @@
   font-family: "Nerko One", cursive;
   overflow-x: hidden ;
 }
+html{
+  scroll-behavior: smooth;
+}
 #navbar {
   display: flex;
-  position: relative;
+  position: sticky;
   align-items: center;
   overflow: hidden;
   height: 3em;
