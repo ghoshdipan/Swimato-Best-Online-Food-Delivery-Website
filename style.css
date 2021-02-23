@@ -11,10 +11,12 @@ html{
 }
 #navbar {
   display: flex;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   align-items: center;
   overflow: hidden;
   height: 3em;
+  z-index: 1;
 }
 #navbar ul {
   display: flex;
